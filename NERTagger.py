@@ -19,10 +19,6 @@ os.environ['TF_CPP_MIN_LOG_LEVEL'] = '2'
 
 class NERTagger(object):
 
-	# def __init__(self):
-		# self.text = text
-		# self.trained = False
-
 	# Utils.py
 	@staticmethod
 	def is_already_trained():
@@ -79,15 +75,15 @@ class NERTagger(object):
 				res = _build_response(self, words, tags, prob = prob)
 				response_json_array.append(res)
 
-			print(response_json_array[4])
-			print(response_json_array[6])
-			print(response_json_array[7])
-			print(response_json_array[8])
-			print(response_json_array[9])
-			print(response_json_array[5])
-			print(response_json_array[3])
-			print(response_json_array[1])
-			print(response_json_array[2])
+			# print(response_json_array[4])
+			# print(response_json_array[6])
+			# print(response_json_array[7])
+			# print(response_json_array[8])
+			# print(response_json_array[9])
+			# print(response_json_array[5])
+			# print(response_json_array[3])
+			# print(response_json_array[1])
+			# print(response_json_array[2])
 
 			# sequenceObj.generate_sequence()
 
